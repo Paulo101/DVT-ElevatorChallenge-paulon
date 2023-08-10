@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 //Console window in the centre of the screen
 SetWindow(600, 500);
 
-
+//declare an instiate the system
 //Assuming the elevator system has 3 elevators, each elevator has a capacity of 10 people and a max weight of 800
 ElevatorSystem elevatorSystem = new ElevatorSystem(3, 10, 800);
 
